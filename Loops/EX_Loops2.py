@@ -5,4 +5,5 @@ data = {'color': 'red',
         }
 
 for x in data:
-    print(x)
+    value = data[x]
+    print(x + ':' + value)
